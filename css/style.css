@@ -399,6 +399,14 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
     padding-top: 2em;
 }
 
+#menu div .burguer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
 
 
 
