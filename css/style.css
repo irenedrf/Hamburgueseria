@@ -351,6 +351,34 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
 /* fin main section about us  */
 
 
+/*modificado desde aquí: inicio section menú*/
+#menu{
+    background-color: var(--color-secundario);
+    color: white;
+}
+#menu h2{
+    color: inherit;
+}
+#menu nav ul a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+}
+#menu nav ul a li{
+    border-radius: 5px 5px 5px 5px;
+    padding: 1.1em 1em;
+}
+
+#menu nav ul a li:hover{
+    background-color: var(--color-principal);
+}
+
+
+
+
+
+/*fin section menú*/
+
 
 /* inicio footer*/
 footer{
