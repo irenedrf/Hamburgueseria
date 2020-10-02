@@ -382,6 +382,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
     border:none;
     background-color: transparent;
     color: var(--color-principal);
+    padding: 0;
 }
 
 
@@ -399,14 +400,33 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
     padding-top: 2em;
 }
 
-#menu div .burguer{
-    display: flex;
-    flex-wrap: wrap;
+.opciones{
+    margin: 0 4em;
 }
 
+.product{
+    margin-bottom: 2em;
+}
 
+.image{
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;
+}
 
+.descripcion p{
+    padding: 1em 0 0 0;
+}
 
+.hamburguesa{
+    content: url(../images/t1.jpg);
+}
+.cafe{
+    content: url(../images/t4.jpg);
+}
+.pizza{
+    content: url(../images/t2.jpg);
+}
 
 
 
