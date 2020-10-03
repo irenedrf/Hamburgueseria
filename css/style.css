@@ -352,9 +352,10 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
 
 
 /*CÓDIGO DE IRENE desde aquí: inicio section menú*/
-#menu{
+main #menu{
     background-color: var(--color-secundario);
     color: white;
+    width: 100%;
 }
 #menu h2{
     color: inherit;
@@ -442,15 +443,15 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
 
 @media(min-width:48.000em){
     #menu{
-        margin: 3em 0 0 0;
+        max-width: 100%;
     }
     #menu article aside{
-        width: 30%;
-        margin: 0 5%;
+        width: 25%;
+        margin: 0 0 0 10%;
     }
     #menu article .opciones{
-        width: 57%;
-        margin:  0 3% 0 0;
+        width: 40%;
+        margin:  0 0 0 5%;
         
     }
     
