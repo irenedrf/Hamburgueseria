@@ -351,7 +351,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
 /* fin main section about us  */
 
 
-/*modificado desde aquí: inicio section menú*/
+/*CÓDIGO DE IRENE desde aquí: inicio section menú*/
 #menu{
     background-color: var(--color-secundario);
     color: white;
@@ -385,7 +385,12 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
     padding: 0;
 }
 
-
+#menu article aside{
+    width: 100%;
+}
+#menu article .opciones{
+    width: 100%;
+}
 
 #menu article aside .titulo{
     margin: 5em 1em;
@@ -401,17 +406,24 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
 }
 
 .opciones{
-    margin: 0 4em;
+    margin: 0 auto;
 }
 
 .product{
-    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 .image{
-    width: 100%;
+    width: 90%;
     display: block;
     margin-bottom: 1em;
+}
+.descripcion{
+    width: 90%;
+    display: block;
 }
 
 .descripcion p{
@@ -428,10 +440,38 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img{
     content: url(../images/t2.jpg);
 }
 
-
-
+@media(min-width:48.000em){
+    #menu{
+        margin: 3em 0 0 0;
+    }
+    #menu article aside{
+        width: 30%;
+        margin: 0 5%;
+    }
+    #menu article .opciones{
+        width: 57%;
+        margin:  0 3% 0 0;
+        
+    }
+    
+    .product{
+        padding: 1em 0 1.5em 0;
+    }
+    
+    .image{
+        width: 35%;
+        padding-right: 1em;
+    }
+    .descripcion{
+        width: 65%;
+    }
+}
 
 /*fin section menú*/
+
+
+
+
 
 
 /* inicio footer*/
