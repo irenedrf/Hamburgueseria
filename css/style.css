@@ -443,8 +443,6 @@ main #menu{
 
 
 
-
-
 @media(min-width:48.000em){
     #menu{
         max-width: 100%;
@@ -481,66 +479,48 @@ main #menu{
 
 /* inicio section blogs */
 
-
+#blogs{
+    padding: 2em 0 5em 0;
+}
 
 #blogs .arts{
     display: flex;
     flex-wrap: wrap;
 }
 
+#blogs .arts article{
+    width: 40%;
+    margin: 3% 5%;
+}
 
 
 #blogs .arts .descripcion{
     width: 100%;
-    background-color: violet;
 }
 
-
-#blogs article{
-    display: flex;
-    flex-flow: column;
-    width: 55%;
-    margin: 0 auto;
-    padding-bottom: 2em;
-}
-
-#blogs .boton{
-    border:none;
+#blogs .boton, #blogs h4{
+    border: none;
     background-color: transparent;
     color: var(--color-principal);
     padding: 0;
 }
 
 #blogs h3{
-    font-weight: 700;
-    margin-top: 1em;
-}
-
-#blogs h4, #blogs .boton{
-    color: var(--color-principal);
-    padding: 1em 0;
-    font-weight: 700;
+    margin: 1em 0;
 }
 
 #blogs p{
-    padding: 0;
     margin: 0;
 }
 
 
 
-/* @media(min-width:48.000em){
-    #blogs .arts{
-        display: flex;
-        
+@media(min-width:48.000em){
+    #blogs .arts article{
+        width: 31.333%;
+        margin: 3% 1%;
     }
-    #blogs article{
-        display: flex;
-        flex-flow: column;
-        width: 25%;
-        margin: 0 2.5%;
-    }
-} */
+}
 
 
 
@@ -548,7 +528,9 @@ main #menu{
 
 
 
-/* fin section blogs */
+
+
+/* fin section blogs. FIN CÓDIGO ESCRITO POR IRENE: FOOTER HECHO EN CLASE */
 
 
 
