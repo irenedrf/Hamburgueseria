@@ -357,6 +357,9 @@ main #menu{
     color: white;
     width: 100%;
 }
+
+
+
 #menu h2{
     color: inherit;
 }
@@ -386,44 +389,50 @@ main #menu{
     padding: 0;
 }
 
-#menu article aside{
-    width: 100%;
-}
-#menu article .opciones{
-    width: 100%;
+#menu .contenedorAsideDiv{
+    flex-wrap: wrap;
 }
 
-#menu article aside .titulo{
+#menu .contenedorAsideDiv aside{
+    width: 100%;
+    margin: 0 2em;
+}
+
+.opciones{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#menu .contenedorAsideDiv aside .titulo{
     margin: 5em 1em;
 }
 
-#menu article aside div .underline{
+#menu .contenedorAsideDiv aside div .underline{
     position: absolute;
     margin: 0.2em 0 1em 0;
 }
 
-#menu article aside div p{
+#menu .contenedorAsideDiv aside div p{
     padding-top: 2em;
 }
 
-.opciones{
-    margin: 0 auto;
-}
+
 
 .product{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+    margin-bottom: 2em;
 }
 
 .image{
-    width: 90%;
+    max-width: 80%;
+    height: auto;
     display: block;
     margin-bottom: 1em;
 }
 .descripcion{
-    width: 90%;
+    width: 80%;
     display: block;
 }
 
@@ -431,40 +440,38 @@ main #menu{
     padding: 1em 0 0 0;
 }
 
-.hamburguesa{
-    content: url(../images/t1.jpg);
-}
-.cafe{
-    content: url(../images/t4.jpg);
-}
-.pizza{
-    content: url(../images/t2.jpg);
-}
+
+
+
 
 @media(min-width:48.000em){
     #menu{
         max-width: 100%;
     }
-    #menu article aside{
+    #menu .contenedorAsideDiv aside{
         width: 25%;
         margin: 0 0 0 10%;
     }
-    #menu article .opciones{
-        width: 40%;
+
+    .opciones{
+        width: 60%;
         margin:  0 0 0 5%;
         
     }
     
-    .product{
-        padding: 1em 0 1.5em 0;
-    }
-    
     .image{
-        width: 35%;
+        max-width: 30%;
+        height: auto;
         padding-right: 1em;
     }
     .descripcion{
-        width: 65%;
+        width: 70%;
+    }
+    .descripcion h3{
+        font-weight: 700;
+    }
+    .descripcion p{
+        margin: 1em 0;
     }
 }
 
