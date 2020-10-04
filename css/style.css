@@ -23,6 +23,7 @@ font-family: 'Montserrat', sans-serif;
     --fuentePrincipal:'Montserrat', sans-serif;
     --fuenteSecundaria: 'Handlee', cursive;
     --anchoMaximo:1100px;
+
     
 }
 
@@ -514,12 +515,39 @@ main #menu{
 }
 
 
+/* código del domingo */
+#blogs .arts article{
+    position: relative;
+}
+
+.fecha{
+    background-color: rgba(250,87,58, 0.7);
+    background-blend-mode: multiply;
+    color: white;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-align: center;
+    width: 33.333%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10% 0;
+}
+
+
 
 @media(min-width:48.000em){
     #blogs .arts article{
         width: 31.333%;
         margin: 3% 1%;
     }
+
+    .fecha{
+        width: 20%;
+        padding: 5% 0;
+    }
+
+
 }
 
 
